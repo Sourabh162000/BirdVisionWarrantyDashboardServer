@@ -10,10 +10,10 @@ import {
 } from "@mui/material";
 
 const Login = () => {
-  const [username, setUsername] = useState("brand@birdvision.com");
-  const [password, setPassword] = useState("secure123");
-  /* const [username, setUsername] = useState("");
-  const [password, setPassword] = useState(""); */
+  /*const [username, setUsername] = useState("brand@birdvision.com");
+  const [password, setPassword] = useState("secure123");*/
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const handleLogin = () => {
